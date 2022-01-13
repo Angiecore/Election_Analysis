@@ -120,4 +120,7 @@ with open(file_to_save, "w") as txt_file:
 print(election_results, end="")
 
 # Save the final vote count to the text file.
-txt_file.write(election_results)
+
+text_file = open("analysis/election_analysis.txt", "w")
+text_file.write(election_results)
+text_file.close()
