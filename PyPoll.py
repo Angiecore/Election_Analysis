@@ -100,3 +100,24 @@ for candidate in candidate_votes:
     f"-------------------------\n")
 
 print(winning_candidate_summary)    
+
+
+
+#print(f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
+#print(winning_candidate_summary)
+
+
+candidate_votes[candidate_name] += 1
+
+with open(file_to_save, "w") as txt_file: 
+
+# Print the final vote count to the terminal.
+ election_results = (
+ f"\nElection Results\n"
+ f"-------------------------\n"
+ f"Total Votes: {total_votes:,}\n"
+ f"-------------------------\n")
+print(election_results, end="")
+
+# Save the final vote count to the text file.
+txt_file.write(election_results)
