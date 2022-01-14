@@ -83,6 +83,7 @@ for candidate_name in candidate_votes:
 # Determine winning vote count and candidate
     # Determine if the votes is greater than the winning count.
     if (votes > winning_count) and (vote_percentage > winning_percentage):
+    
     # If true then set winning_count = votes and winning_percent =
     # vote_percentage.
      winning_count = votes
@@ -103,8 +104,8 @@ print(winning_candidate_summary)
 
 
 
-#print(f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
-#print(winning_candidate_summary)
+print(f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
+print(winning_candidate_summary)
 
 
 candidate_votes[candidate_name] += 1
