@@ -19,4 +19,5 @@ As we can see in the summary below, the total votes of this election were 369,71
 
 As for the counties, Denver got the most votes, a total votes of 306,055, which represent the 82.8%. Then Jefferson got a total of 38,855 votes an 10.5%. Finally, Arapahoe county got 24,801 votes, a 10.5%.
 
-The script can be modified in order to be used for any election. 
+The script can be modified in order to be used for any election. If the data has other filters, the script can be modified to include the new filters. For example, we could modify the code in order to know what candidate was most popular in each county. 
+
