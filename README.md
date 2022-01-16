@@ -14,5 +14,9 @@ As we can see in the summary below, the total votes of this election were 369,71
 
 * The winner, Diane Degette got 272,892 votes. This amount of votes represents the 73.8%. 
 * The second place, Charles Casper, got 85,213 votes that represent the 23%. 
-* Finally the third place, Raymon Anthony Doane, got 11,606 votes which represent 3.1% of the total votes in this election. 
+* The third place, Raymon Anthony Doane, got 11,606 votes which represent 3.1% of the total votes in this election. 
 
+
+As for the counties, Denver got the most votes, a total votes of 306,055, which represent the 82.8%. Then Jefferson got a total of 38,855 votes an 10.5%. Finally, Arapahoe county got 24,801 votes, a 10.5%.
+
+The script can be modified in order to be used for any election. 
